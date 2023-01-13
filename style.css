@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+body{
+    background-color:  #E5E5E5;;
+}
+
+.container{
+    position: relative;
+    width: 1440px;
+    height: 801px;
+    margin-top: 70px;
+    margin-left: 230px;
+    margin-bottom: 50px;
+    background-color: #f9f9f9;
+}
+.logo{
+    margin-left: 60px;
+    width: 160px;
+    height: 36.02px;
+
+}
+.box{
+    width: 560px;
+    height: 611px;
+    margin-top: 70px;
+    margin-left: 440px;
+    padding: 40px, 91px, 40px,91px;
+    gap: 24px;
+    border-radius: 15px;
+    background-color: #fffffF;
+    box-shadow: Offset 4px, 4px
+    rgba(157, 157, 157, 0.12);
+}
+
+.paragraph {
+    width: 378px;
+    height: 80px;
+    margin-left: 100px;
+ font-family: Roboto, sans-serif;
+ font-weight: 400;
+ line-height: 18.4px;
+ align-items: center;
+ padding-top: 15px;
+
+}
+.paragraph h2{
+    margin-top: 70px;
+    padding: 10px;
+    font-family: Robot, sans-serif;
+    font-size: 26px;
+    line-height: 30px;
+    color: #212121;
+}
+.paragraph p{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    color: #545454;
+   }
+
+  
+   .Form{
+    margin-top: 180px;
+    margin-left: 100px;
+    gap: 30px;
+
+   }
+   .Form label{
+    margin-top: 20px;
+    width: 105px;
+    line-height: 17px;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: left;
+    color: #545454;
+   }
+   
+   .Form input{
+    margin-top: 10px;
+    width: 368px;
+    height: 37px;
+    border-color:  #ced4da;
+    border-radius: 6px;
+   }
+.input-form{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.input-form label{
+    width: 105px;
+    line-height: 17px;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: left;
+    color: #545454;
+}
+.input-form input{
+    margin-top: 10px;
+    width: 70px;
+    height: 25px;
+    border-radius: 2px;
+    padding: 4px, 8px, 4px, 8px;
+    border-color: #ced4da;
+    font-weight: 500;
+    align-items: center;
+}
+
+.btn button{
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 360px;
+    height: 37px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    
+    color: #fffffF;
+    background-color: #3766E8;
+    cursor: pointer;
+}
